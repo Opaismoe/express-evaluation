@@ -5,9 +5,51 @@
     "endsAt": "01/03/18",
     "students": [
       {
-        "name": "Wiebe Buursink",
-        "photo": "http://via.placeholder.com/500x180?text=No%20Image",
-        "colors": [],
+        "name": "Dorothee Saladin",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,3,3,3,3],
+        "mainColor": 0,
+        "remark": "Sweet and smart girl, always knows just what to answer!"
+      },
+      {
+        "name": "Ida Saladin",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,1,3,1,1],
+        "mainColor": 0,
+        "remark": "Notes here.."
+      },
+      {
+        "name": "Eva Saladin",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,2,3,2,1],
+        "mainColor": 0,
+        "remark": "Notes here.."
+      },
+      {
+        "name": "Manfred Gerardsen",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,2,3,2,1],
+        "mainColor": 0,
+        "remark": "He's called Manfred what do you expect?"
+      },
+      {
+        "name": "Gibrart Johsten",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,3,3,3,3,1],
+        "mainColor": 0,
+        "remark": "null"
+      },
+      {
+        "name": "Alexander Saladin",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,2,1,2,1],
+        "mainColor": 0,
+        "remark": "Notes here.."
+      },
+      {
+        "name": "Dorien Verhyden",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,2,1,2,1],
         "mainColor": 0,
         "remark": "Notes here.."
       }
@@ -20,26 +62,82 @@
     "endsAt": "01/03/18",
     "students": [
       {
+        "name": "Manfred Gerardsen",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,2,3,2,1],
+        "mainColor": 0,
+        "remark": "He's called Manfred what do you expect?"
+      },
+      {
+        "name": "Gibrart Johsten",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,3,3,3,3,1],
+        "mainColor": 0,
+        "remark": "null"
+      },
+      {
         "name": "Wiebe Buursink",
-        "photo": "http://via.placeholder.com/500x180?text=No%20Image",
-        "colors": [],
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,2,3,2,1],
+        "mainColor": 0,
+        "remark": "Let's stop talking about this guy... jesus..."
+      },
+      {
+        "name": "Sarah Buursink",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,2,3,3,1],
+        "mainColor": 0,
+        "remark": "Notes here.."
+      },
+      {
+        "name": "Sjoske Buursink",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [3,1,3,3,2,1],
+        "mainColor": 0,
+        "remark": "Notes here.."
+      },
+      {
+        "name": "Joke Buursink",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,3,2,3,2,3],
+        "mainColor": 0,
+        "remark": "Notes here.."
+      },
+      {
+        "name": "Chris Buursink",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [3,3,2,3,2,3],
         "mainColor": 0,
         "remark": "Notes here.."
       }
     ]
   },
-  
+
   {
     "name": "Batch 2",
     "startsAt": "01/01/18",
     "endsAt": "01/03/18",
     "students": [
       {
-        "name": "Wiebe Buursink",
-        "photo": "http://via.placeholder.com/500x180?text=No%20Image",
-        "colors": [],
+        "name": "Manfred Gerardsen",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,2,3,2,1],
         "mainColor": 0,
-        "remark": "Notes here.."
+        "remark": "He's called Manfred what do you expect?"
+      },
+      {
+        "name": "Gibrart Johsten",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,3,3,3,3,1],
+        "mainColor": 0,
+        "remark": "null"
+      },
+      {
+        "name": "Selah Maan",
+        "photo": "https://picsum.photos/300/?random",
+        "colors": [2,1,2,3,1,1],
+        "mainColor": 0,
+        "remark": "For some reason her answer is always 42! does anybody get why?"
       }
     ]
   }
