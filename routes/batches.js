@@ -28,17 +28,9 @@ module.exports = io => {
         .catch((error) => next(error))
     })
     .post('/batches', authenticate, (req, res, next) => {
-      const newBatch = {
-        userId: req.account._id,
-        name: req.body.name,
-        startsAt: req.body.startsAt,
-        endsAt: req.body.endsAt,
-        students: [{
-          userId: req.account._id,
-          name: req.body.name,
-        }]
-      }
+      const newBatch = req.body
 
+      
       Batch.create(newBatch)
         .then((batch) => {
           io.emit('action', {
