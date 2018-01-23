@@ -13,8 +13,8 @@ const studentSchema = new Schema({
 const batchSchema = new Schema({
   name: { type: String, required: true },
   students: [studentSchema],
-  startsAt: { type: Date, default: Date.now },
-  endsAt: { type: Date, default: Date.now },
+  startsAt: { type: String, required: true },
+  endsAt: { type: String, required: true },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
 });

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Batch 1",
+    "startsAt": "01/01/18",
+    "endsAt": "01/03/18",
+    "students": [
+      {
+        "name": "Wiebe Buursink",
+        "photo": "http://via.placeholder.com/500x180?text=No%20Image",
+        "colors": [],
+        "mainColor": 0,
+        "remark": "Notes here.."
+      }
+    ]
+  },
+
+  {
+    "name": "Batch 3",
+    "startsAt": "01/01/18",
+    "endsAt": "01/03/18",
+    "students": [
+      {
+        "name": "Wiebe Buursink",
+        "photo": "http://via.placeholder.com/500x180?text=No%20Image",
+        "colors": [],
+        "mainColor": 0,
+        "remark": "Notes here.."
+      }
+    ]
+  },
+  
+  {
+    "name": "Batch 2",
+    "startsAt": "01/01/18",
+    "endsAt": "01/03/18",
+    "students": [
+      {
+        "name": "Wiebe Buursink",
+        "photo": "http://via.placeholder.com/500x180?text=No%20Image",
+        "colors": [],
+        "mainColor": 0,
+        "remark": "Notes here.."
+      }
+    ]
+  }
+]

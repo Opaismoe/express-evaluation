@@ -30,12 +30,9 @@ module.exports = io => {
     .post('/batches', authenticate, (req, res, next) => {
       const newBatch = {
         userId: req.account._id,
-        players: [{
-          userId: req.account._id,
-          pairs: []
-        }],
-        cards: utils.shuffle('✿✪♦✵♣♠♥✖'.repeat(2).split(''))
-          .map((symbol) => ({ visible: false, symbol }))
+        students: [{
+          userId: req.account._id
+        }]
       }
 
       Batch.create(newBatch)
