@@ -30,8 +30,12 @@ module.exports = io => {
     .post('/batches', authenticate, (req, res, next) => {
       const newBatch = {
         userId: req.account._id,
+        name: req.body.name,
+        startsAt: req.body.startsAt,
+        endsAt: req.body.endsAt,
         students: [{
-          userId: req.account._id
+          userId: req.account._id,
+          name: req.body.name,
         }]
       }
 
