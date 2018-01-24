@@ -1,6 +1,7 @@
 [
   {
     "name": "Batch 1",
+    "batchPc": [],
     "startsAt": "01/01/18",
     "endsAt": "01/03/18",
     "students": [
@@ -58,6 +59,7 @@
 
   {
     "name": "Batch 3",
+    "batchPc": [],
     "startsAt": "01/01/18",
     "endsAt": "01/03/18",
     "students": [
@@ -115,6 +117,7 @@
 
   {
     "name": "Batch 2",
+    "batchPc": [],
     "startsAt": "01/01/18",
     "endsAt": "01/03/18",
     "students": [
