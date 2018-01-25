@@ -19,7 +19,6 @@ const loadBatch = (req, res, next) => {
 const getStudents = (req, res, next) => {
   Promise.all(req.batch.students.map(student => User.findById(student.userId)))
     .then((users) => {
-      // Combine student data and user's name
       req.students = req.batch.students.map((student) => {
         const { name } = users
           .filter((u) => u._id.toString() === student.userId.toString())[0]
@@ -83,7 +82,7 @@ module.exports = io => {
       const currentPlayer = req.batch.students.filter((p) => p.userId.toString() === userId.toString())[0]
 
       if (!currentPlayer) {
-        const error = Error.new('You are not a student of this batch!')
+        const error = Error.new('You are not a Teacher!')
         error.status = 401
         return next(error)
       }
@@ -110,6 +109,18 @@ module.exports = io => {
       })
       res.json(req.students)
     })
+    // Fetch student data
+    getStudents,
+    // Respond with new student data in JSON
+    (req, res, next) => {
+      io.emit('action', {
+        type: 'FETCHED_ONE_STUDENT',
+        payload: {
+          students: req.students
+        }
+      })
+      res.json(req.students)
+    }
 
   return router
 }

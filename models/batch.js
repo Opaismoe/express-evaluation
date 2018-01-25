@@ -14,6 +14,7 @@ const batchSchema = new Schema({
   name: { type: String, required: true },
   students: [studentSchema],
   batchPc: {type: Array, default: [0,0,0]},
+  batchColors: {type: Array, default: []},
   startsAt: { type: String, required: true },
   endsAt: { type: String, required: true },
   createdAt: { type: Date, default: Date.now },
