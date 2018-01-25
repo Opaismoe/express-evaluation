@@ -6,7 +6,6 @@ const studentSchema = new Schema({
   name: { type: String, required: false },
   photo: { type: String, default: 'http://via.placeholder.com/500x180?text=No%20Image' },
   colors: {type: Array},
-  mainColor: {type: Number, default: 0 },
   remark: {type: String, default: 'Notes'},
 });
 
