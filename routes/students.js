@@ -1,7 +1,7 @@
 // routes/students.js
 const router = require('express').Router()
-const passport = require('../../config/auth')
-const { Student, User } = require('../../models')
+const passport = require('../config/auth')
+const { Student, User } = require('../models')
 
 const authenticate = passport.authorize('jwt', { session: false })
 

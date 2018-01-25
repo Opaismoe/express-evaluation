@@ -5,6 +5,8 @@ const { Batch } = require('../models')
 const utils = require('../lib/utils')
 
 const authenticate = passport.authorize('jwt', { session: false })
+
+
 const batchColors = [1,1,1,3,2]
 const green = []
 const yellow = []
