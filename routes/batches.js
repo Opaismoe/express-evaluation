@@ -6,6 +6,26 @@ const utils = require('../lib/utils')
 
 const authenticate = passport.authorize('jwt', { session: false })
 
+
+const batchColors = [1,1,1,3,2]
+const green = []
+const yellow = []
+const red = []
+
+
+function sortByColor(value) {
+  if (value >= 3) {
+    return green.push(value)
+  }
+  if (value === 2) {
+    return yellow.push(value)
+  }
+  if (value < 2) {
+    return red.push(value)
+  }
+}
+
+
 module.exports = io => {
   router
     .get('/batches', (req, res, next) => {
@@ -14,6 +34,7 @@ module.exports = io => {
         .sort({ createdAt: -1 })
         // Send the data in JSON format
         .then((batches) => res.json(batches))
+
         // Throw a 500 error if something goes wrong
         .catch((error) => next(error))
     })
@@ -24,6 +45,8 @@ module.exports = io => {
         .then((batch) => {
           if (!batch) { return next() }
           res.json(batch)
+          res.json(batchColors.filter(sortByColor))
+          console.log("hello?")
         })
         .catch((error) => next(error))
     })
@@ -74,22 +97,6 @@ module.exports = io => {
               res.json(batch)
             })
             .catch((error) => next(error))
-        })
-        .catch((error) => next(error))
-    })
-    .delete('/batches/:id', authenticate, (req, res, next) => {
-      const id = req.params.id
-      Batch.findByIdAndRemove(id)
-        .then(() => {
-          io.emit('action', {
-            type: 'BATCH_REMOVED',
-            payload: id
-          })
-          res.status = 200
-          res.json({
-            message: 'Removed',
-            _id: id
-          })
         })
         .catch((error) => next(error))
     })
