@@ -2,131 +2,69 @@
   {
     "name": "Batch 1",
     "batchPc": [],
-    "batchColors": [2,1,3,3,3,3,2,1,1,3,1,1,2,1,2,3,2,1,2,1,2,3,2,1,2,3,3,3,3,1,2,3,3,3,3,1,2,1,2,1,2,1,2,1,2,1,2,1],
+    "batchColors": [],
     "startsAt": "2017-11-20",
     "endsAt": "2018-01-28",
     "students": [
       {
-        "name": "Dorothee Saladin",
-        "photo": "http://lorempixel.com/400/401/people/",
-        "colors": [2,1,3,3,3,3],
-        "remark": "Sweet and smart girl, always knows just what to say!"
-      },
-      {
-        "name": "Ida Saladin",
-        "photo": "http://lorempixel.com/400/402/people/",
-        "colors": [2,1,1,3,1,1],
-        "remark": "Notes here.."
-      },
-      {
-        "name": "Eva Saladin",
-        "photo": "http://lorempixel.com/400/403/people/",
-        "colors": [2,1,2,3,2,1],
-        "remark": "Notes here.."
-      },
-      {
-        "name": "Manfred Gerardsen",
-        "photo": "http://lorempixel.com/400/404/people/",
-        "colors": [2,1,2,3,2,1],
-        "remark": "He's called Manfred what do you expect?"
-      },
-      {
-        "name": "Gibrart Johsten",
-        "photo": "http://lorempixel.com/401/400/people/",
-        "colors": [2,3,3,3,3,1],
-        "remark": "null"
-      },
-      {
-        "name": "Alexander Saladin",
-        "photo": "http://lorempixel.com/402/400/people/",
-        "colors": [2,1,2,1,2,1],
-        "remark": "Notes here.."
-      },
-      {
-        "name": "Dorien Verhyden",
-        "photo": "http://lorempixel.com/403/400/people/",
-        "colors": [2,1,2,1,2,1],
-        "remark": "Notes here.."
-      }
-    ]
-  },
-
-  {
-    "name": "Batch 2",
-    "batchPc": [],
-    "batchColors": [],
-    "startsAt": "2018-01-02",
-    "endsAt": "2018-02-02",
-    "students": [
-      {
         "name": "Manfred Gerardsen",
         "photo": "http://lorempixel.com/404/400/people/",
-        "colors": [2,1,2,3,2,1],
+        "colors": [3],
         "remark": "He's called Manfred what do you expect?"
       },
       {
         "name": "Gibrart Johsten",
         "photo": "http://lorempixel.com/405/400/people/",
-        "colors": [2,3,3,3,3,1],
+        "colors": [2],
         "remark": "null"
       },
       {
         "name": "Wiebe Buursink",
         "photo": "http://lorempixel.com/400/401/people/",
-        "colors": [2,1,2,3,2,1],
+        "colors": [1],
         "remark": "Let's stop talking about this guy... jesus..."
       },
       {
         "name": "Sarah Buursink",
         "photo": "http://lorempixel.com/400/402/people/",
-        "colors": [2,1,2,3,3,1],
+        "colors": [3],
         "remark": "Notes here.."
       },
       {
         "name": "Sjoske Buursink",
         "photo": "http://lorempixel.com/400/403/people/",
-        "colors": [3,1,3,3,2,1],
+        "colors": [2],
         "remark": "Notes here.."
       },
       {
         "name": "Joke Buursink",
         "photo": "http://lorempixel.com/400/404/people/",
-        "colors": [2,3,2,3,2,3],
+        "colors": [2],
         "remark": "Notes here.."
       },
       {
         "name": "Chris Buursink",
         "photo": "http://lorempixel.com/400/402/people/",
-        "colors": [3,3,2,3,2,3],
+        "colors": [3],
         "remark": "Notes here.."
-      }
-    ]
-  },
-
-  {
-    "name": "Batch 3",
-    "batchPc": [],
-    "batchColors": [],
-    "startsAt": "2018-02-20",
-    "endsAt": "2018-03-28",
-    "students": [
-      {
-        "name": "Manfred Gerardsen",
-        "photo": "http://lorempixel.com/400/405/people/",
-        "colors": [2,1,2,3,2,1],
-        "remark": "He's called Manfred what do you expect?"
       },
       {
-        "name": "Gibrart Johsten",
+        "name": "Dorothee Saladin",
+        "photo": "http://lorempixel.com/400/401/people/",
+        "colors": [2],
+        "remark": "Sweet and smart girl, always knows just what to say!"
+      },
+      {
+        "name": "Ida Saladin",
         "photo": "http://lorempixel.com/400/402/people/",
-        "colors": [2,3,3,3,3,1],
-        "remark": "null"
+        "colors": [1],
+        "remark": "Notes here.."
       },
       {
-        "name": "Selah Maan",
+        "name": "Eva Saladin",
         "photo": "http://lorempixel.com/400/403/people/",
-        "colors": [2,1,2,3,1,1],
-        "remark": "For some reason her answer is always 42! does anybody get why?"
+        "colors": [3],
+        "remark": "Notes here.."
       }
     ]
   }
